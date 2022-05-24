@@ -1,0 +1,2 @@
+control
+-DCATKIN_DEVEL_PREFIX=/home/bryant/project/QRT/devel -DCMAKE_INSTALL_PREFIX=/home/bryant/project/QRT/install -G Unix Makefiles

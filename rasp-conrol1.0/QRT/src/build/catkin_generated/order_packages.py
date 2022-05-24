@@ -1,0 +1,5 @@
+# generated from catkin/cmake/template/order_packages.context.py.in
+source_root_dir = '/home/bryant/project/QRT/src'
+whitelisted_packages = ''.split(';') if '' != '' else []
+blacklisted_packages = ''.split(';') if '' != '' else []
+underlay_workspaces = '/home/bryant/project/QRT/devel;/home/bryant/project/wit_ros_ws/devel;/opt/ros/noetic'.split(';') if '/home/bryant/project/QRT/devel;/home/bryant/project/wit_ros_ws/devel;/opt/ros/noetic' != '' else []
