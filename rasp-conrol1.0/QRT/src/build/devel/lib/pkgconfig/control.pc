@@ -1,8 +1,0 @@
-prefix=/home/bryant/project/QRT/src/build/devel
-
-Name: control
-Description: Description of control
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
