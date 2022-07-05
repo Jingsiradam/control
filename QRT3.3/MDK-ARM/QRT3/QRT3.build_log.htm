@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 dell, 1, LIC=ZB4EI-TPI3F-9U34U-SQ3W3-CELBA-F8HDA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\keil5\keilexe\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+F:\onedrive\OneDrive - 南方科技大学\labwork\QRT\basework\control\QRT3\MDK-ARM\QRT3.uvprojx
+Project File Date:  07/02/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\keil5\keilexe\ARM\ARMCC\Bin'
+Build target 'QRT3'
+compiling main.c...
+../mycode/rasp_command.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif
+../mycode/motortest.h(5): warning:  #1295-D: Deprecated declaration motor_test - give arg types
+  void motor_test();
+../mycode/motortest.h(7): warning:  #1295-D: Deprecated declaration PWM_init - give arg types
+  void PWM_init();
+../mycode/motortest.h(8): warning:  #1295-D: Deprecated declaration motor_init - give arg types
+  void motor_init();
+../mycode/motortest.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c(221): warning:  #177-D: variable "cpu_sr"  was declared but never referenced
+  	CPU_SR_ALLOC();
+../Src/main.c(258): warning:  #177-D: variable "cpu_sr"  was declared but never referenced
+  	CPU_SR_ALLOC();
+../Src/main.c(276): warning:  #177-D: variable "cpu_sr"  was declared but never referenced
+  	CPU_SR_ALLOC();
+../Src/main.c(497): warning:  #177-D: variable "cpu_sr"  was declared but never referenced
+  	CPU_SR_ALLOC();
+../Src/main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=27164 RO-data=724 RW-data=472 ZI-data=23176  
+FromELF: creating hex file...
+"QRT3\QRT3.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_QRT3
+  E:\keil5\keilexe\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  E:\keil5\keilexe\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

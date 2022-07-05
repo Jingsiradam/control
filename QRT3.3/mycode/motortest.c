@@ -1,0 +1,170 @@
+#include "motortest.h"
+
+void motor_test()
+{	 
+	
+	 OS_ERR  err;
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,600);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,600);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,0);
+	
+	__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,600);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,600);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,0);
+	 
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,600);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,600);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,0);
+	 
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3,600);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,600);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,0);
+	 
+
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3,600);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_4,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_4,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_4,600);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3,0);
+	 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_4,0);
+	 
+
+	 
+	 	 	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_1,600);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,0);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,600);
+	 OSTimeDlyHMSM(0,0,2,0,OS_OPT_TIME_DLY,&err);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_1,0);
+	 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,0);
+}
+
+void set_motorspeed(float speed,uint8_t num)
+{ switch(num)
+	{case 1:
+		if(speed>0)
+		{__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,speed);
+		 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,0);
+		}
+		else
+		{__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,0);
+		 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,-speed);
+		}
+		break;
+	case 2:
+		if(speed>0)
+		{__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,speed);
+		 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,0);
+		}
+		else
+		{__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,0);
+		 __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_4,-speed);
+		}
+		break;
+	case 3:
+		if(speed>0)
+		{__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,speed);
+		 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,0);
+		}
+		else
+		{__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,0);
+		 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_2,-speed);
+		}
+		break;
+	case 5:
+		if(speed>0)
+		{__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3,speed);
+		 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_4,0);
+		}
+		else
+		{__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3,0);
+		 __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_4,-speed);
+		}
+		break;
+	case 4:
+		if(speed>0)
+		{__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3,speed);
+		 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,0);
+		}
+		else
+		{__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_3,0);
+		 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_4,-speed);
+		}
+		break;
+	case 6:
+		if(speed>0)
+		{__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_1,speed);
+		 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,0);
+		}
+		else
+		{__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_1,0);
+		 __HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,-speed);
+		}
+		break;
+	}
+}
+
+void PWM_init()
+{	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);//right 1 motor 1
+	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_3);//right 2  motor 2
+	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_4);
+	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_3);//left 3  motor 3
+	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_4);
+	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);//left 2  motor4
+	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_3);// error motor
+	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_4);
+}
+
+void motor_init()
+{
+	for(int i=1;i<7;i++)
+	{set_motorspeed(600,i);}
+	set_motorspeed(0,1);
+}
+
+

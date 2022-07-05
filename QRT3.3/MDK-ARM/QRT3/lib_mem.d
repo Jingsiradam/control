@@ -1,0 +1,11 @@
+qrt3\lib_mem.o: ..\UCOSIII\uC-LIB\lib_mem.c
+qrt3\lib_mem.o: ../UCOSIII/uC-LIB/lib_mem.h
+qrt3\lib_mem.o: ../UCOSIII/uC-CPU/ARM-Cortex-M4/RealView/cpu.h
+qrt3\lib_mem.o: ../UCOSIII/uC-CPU/cpu_def.h
+qrt3\lib_mem.o: ../UCOSIII/uCOS-CONFIG/cpu_cfg.h
+qrt3\lib_mem.o: ../UCOSIII/uC-CPU/cpu_core.h
+qrt3\lib_mem.o: ../UCOSIII/uC-LIB/lib_def.h
+qrt3\lib_mem.o: ../UCOSIII/uC-LIB/lib_mem.h
+qrt3\lib_mem.o: ../UCOSIII/uC-LIB/lib_str.h
+qrt3\lib_mem.o: ../UCOSIII/uC-LIB/lib_ascii.h
+qrt3\lib_mem.o: ../UCOSIII/uCOS-CONFIG/lib_cfg.h
